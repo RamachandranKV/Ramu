@@ -1,1 +1,40 @@
 This is also Mobile OS.But this is open source.
+Android History
+Software requirement 
+Project structure 
+Android architecture
+import java.util.ArrayList;
+import java.util.Random;
+
+
+public class GettingRndomNo
+{
+	public static void main(String args[])
+		{
+				Random srandom=new Random();
+						ArrayList<Integer> csList=new ArrayList<Integer>();
+								int irandomNum=0;
+										if(csList != null)
+												{
+															csList.clear();
+																	}
+																			
+																					for(int i=0;i<5;i++)
+																							{
+																										while(true)
+																													{
+																																	irandomNum=srandom.nextInt(1000)+999;
+																																					if(!csList.contains(irandomNum))
+																																									{
+																																														csList.add(irandomNum);
+																																																			break;
+																																																							}
+																																																											
+																																																														}
+																																																																	
+																																																																			
+																																																																					}
+																																																																							System.out.print(" "+csList);
+																																																																								}
+																																																																								}
+
