@@ -1,1 +1,8 @@
  This is one of the Mobile OS(BlackBerry)
+ public void main()
+ {
+ int a=10,b=5;
+ b=a+b;
+ a=b-a;
+ b=b-a;
+ }
